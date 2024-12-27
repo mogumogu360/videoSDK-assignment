@@ -36,34 +36,32 @@ Flutter 2.0+ with Dart 3.3.0+
 A valid VideoSDK Account
 📦 Running the Sample App
 1. Clone the Repository
-bash
-Copy code
+
 git clone https://github.com/videosdk-live/videosdk-rtc-flutter-sdk-example.git
 cd videosdk-rtc-flutter-sdk-example
+
 2. Copy and Configure Environment File
-bash
-Copy code
+
 cp .env.example .env
 Update .env with your generated temporary token:
 
 env
-Copy code
+
 AUTH_TOKEN=YOUR_TEMPORARY_TOKEN
+
 3. Install Dependencies
-bash
-Copy code
 flutter pub get
-4. iOS/macOS Setup (Optional)
+
+5. iOS/macOS Setup (Optional)
 Navigate to the respective folder and install CocoaPods:
 
-bash
-Copy code
 cd ios
 pod install
+
 5. Run the Application
-bash
-Copy code
 flutter run
+
+
 🔥 Features
 Feature	Description	Documentation
 Precall Setup	Configure devices before joining a call	Docs
@@ -74,10 +72,12 @@ Screen Share	Share your screen with participants	Docs
 Virtual Background	Add virtual/blurred backgrounds	Docs
 Chat	In-meeting chat with participants	Docs
 Recording	Record meetings for future use	Docs
+
 🧠 Key Concepts
 Meeting: Represents real-time video and audio communication.
 Participant: Local or remote user in a meeting.
 Stream: Media (audio/video) content shared during a meeting.
+
 🔐 Token Generation
 Development
 Use temporary tokens for quick development. Generate one from the dashboard.
